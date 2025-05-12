@@ -1,0 +1,5 @@
+[phases]
+setup = { nixPkgs = ["python3.10"] }
+
+[start]
+cmd = "python Main.py"
