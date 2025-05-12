@@ -9,7 +9,7 @@ from io import BytesIO
 app = FastAPI()
 
 # -------------------- Load Lung Cancer Model --------------------
-lung_model = load_model('D:\\Models\\Models\\Lung cancer detection\\model.h5.keras')
+lung_model = load_model('Models/model.h5.keras')
 lung_class_names = ['Normal', 'Malignant', 'Benign']
 
 def preprocess_lung_image(img):
