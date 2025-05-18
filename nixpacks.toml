@@ -1,5 +1,5 @@
 [phases]
-setup = { nixPkgs = ["python3.10"] }
+setup = { nixPkgs = ["python3"] }
 
 [start]
 cmd = "python app.py"
